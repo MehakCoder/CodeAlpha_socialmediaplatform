@@ -73,7 +73,7 @@
 						<div class="col-lg-2 col-sm-3">
 							<div class="user-avatar">
 								<figure>
-									<img src="{{user_profile.profileimg.url}}" style="height: 250px; width: 100%;" alt="">
+									<img src="{{user_profile.profileing.url}}" style="height: 250px; width: 100%;" alt="">
 									<!-- <form class="edit-phto">
 										<i class="fa fa-camera-retro"></i>
 										<label class="fileContainer">
@@ -148,8 +148,8 @@
 					
 										{% for post in user_posts %}
 										<li>
-											<a class="strip" href="{{post.image.url}}" title="" data-strip-group="mygroup" data-strip-group-options="loop: false">
-												<img src="{{post.image.url}}" style="height: 250px; width: 300px;" alt=""></a>
+											<a class="strip" href="{{post.images.url}}" title="" data-strip-group="mygroup" data-strip-group-options="loop: false">
+												<img src="{{post.images.url}}" style="height: 250px; width: 300px;" alt=""></a>
 										</li>
 										{% endfor %}
 										
